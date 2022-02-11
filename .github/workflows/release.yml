@@ -1,3 +1,4 @@
+#release branch
 name: release
 on:
   push:
@@ -5,8 +6,8 @@ on:
       - 'v*'
 
 env:
-  DOCKER_USERNAME: thedoorknobster
-  REPO: thedoorknobster/sample-app
+  DOCKER_USERNAME: shafivulla
+  REPO: shafivulla/sample-app
 
 jobs:
   docker:
