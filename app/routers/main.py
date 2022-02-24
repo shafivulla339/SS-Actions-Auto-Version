@@ -7,7 +7,7 @@ router = APIRouter()
 @router.get("/", include_in_schema=False)
 def home():
     """Main endpoint."""
-    return PlainTextResponse('Hello world!')
+    return PlainTextResponse('Hello world!''Hello world!''Hello world!')
 
 
 @router.get("/{name}", include_in_schema=False)
