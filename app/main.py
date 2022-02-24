@@ -8,7 +8,7 @@ from app import routers
 app = FastAPI(
     title="ss-sample-python-api",
     description="Sample Python API.",
-    version="v1",
+    version="v2",
 )
 
 app.include_router(routers.main.router)
